@@ -1,0 +1,97 @@
+.container1
+{
+    position: sticky;
+}
+.roof{
+   
+    width: fit-content;
+    border-right: 100px solid transparent;
+    border-left: 97px solid transparent;
+    border-bottom: 71px solid red;
+    
+   }
+   .tube
+   {
+        position: sticky;
+        left: 10%;
+        z-index: 0;
+        margin-top: 59px;
+    }
+    .part1
+    {
+         background-color: rgb(65, 8, 8);
+         width: 30px;
+         height: 10px;
+ 
+    }
+    .part2
+    {
+         border-top: 30px solid rgb(65, 8, 8);
+         border-right: 30px solid transparent;
+         width: 0px;
+     }
+
+    .house
+    {
+        position: sticky;
+        margin-top: -80px;
+    }
+  
+.ground
+{
+    
+    background-color: rgb(10, 211, 184);
+    height: 200px;
+    width: 200px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.window
+{
+    background-color: rgb(209, 224, 223);
+    height: 50px;
+    width: 50px;
+    margin: auto;
+}
+.in-window1
+{
+    
+    background-color: rgb(66, 30, 10);
+    height: 3px;
+    width: 50px;
+}
+.in-window2
+{
+    position: sticky;
+    background-color: rgb(66, 30, 10);
+    height: 50px;
+    width: 3px;
+}
+.first .in-window1{margin-top: 20px;}
+.first .in-window2{left: 4%;margin-top: -23px}
+
+.second .in-window1{margin-top: 20px;}
+.second .in-window2{left: 12%;  margin-top: -23px;}
+
+.therd .in-window1{margin-top: 20px;}
+.therd .in-window2{left: 4%;margin-top: -23px}
+    
+.door
+{
+    background-color: rgb(66, 30, 10);
+    height: 80px;
+    width: 50px;
+    left: 10%;
+    margin-top: 50px;
+    position: sticky;
+}
+
+.han
+{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(214, 195, 20);
+    position: sticky;
+    margin-top: 32px;
+}

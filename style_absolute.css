@@ -1,0 +1,91 @@
+.container1
+{
+    position: absolute;
+}
+.roof{
+   
+    width: fit-content;
+    border-right: 100px solid transparent;
+    border-left: 100px solid transparent;
+    border-bottom: 50px solid red;
+    
+   }
+   .tube
+   {
+       position: absolute;
+        left: 50px;
+        z-index: 0;
+    }
+    .part1
+    {
+         background-color: rgb(65, 8, 8);
+         width: 30px;
+         height: 10px;
+ 
+    }
+    .part2
+    {
+         border-top: 30px solid rgb(65, 8, 8);
+         border-right: 30px solid transparent;
+         width: 0px;
+     }
+
+    .house
+    {
+        z-index: 1;
+        position: absolute;
+    }
+  
+.ground
+{
+    
+    background-color: rgb(10, 211, 184);
+    height: 200px;
+    width: 200px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.window
+{
+    background-color: rgb(209, 224, 223);
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    position: sticky;
+}
+.in-window1
+{
+    position: absolute;
+    background-color: rgb(66, 30, 10);
+    height: 3px;
+    width: 50px;
+    top: 48%;
+}
+.in-window2
+{
+    position: absolute;
+    background-color: rgb(66, 30, 10);
+    height: 50px;
+    width: 3px;
+    left: 50%;
+}
+    
+.door
+{
+    background-color: rgb(66, 30, 10);
+    height: 80px;
+    width: 50px;
+    bottom: 0px;
+    right: 10px;
+    position: absolute;
+}
+
+.han
+{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(214, 195, 20);
+    position: absolute;
+    top: 50%;
+}
